@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <!--EL PROYECTO FINAL ES REALIZAR UN FORMULARIO-->
+    <!--from es para crear formularios-->
+    <from name="Formulario" method="post" action="/send/" >
+        Nombre:
+        <!--input es para poder ingresar datos-->
+        <input type="text" name="nombre" placeholder="Introduce Nombre">
+        Descripción:
+        <!--textarea es para poder agregar un comentario largo-->
+        <!--cols= para el ancho y rows para el alto que se desea agregar-->
+        <textarea cols="30" rows="20" wrap="hard" placeholder="Breve descripción de la persona"></textarea>
+        Telefono:
+        <!--type"tel" es para ingresar el telefono en formulario-->
+        <input type="tel" name="telefono" placeholder="+XX XXX XXX XXX">
+        Email:
+        <!--type="email" es para ingresar el email en el formulario-->
+        <input type="email" name="email" placeholder="ejemplo1@gmail.com">
+
+        <input type="submit">
+    </from>
+
+    <from name="formulario1" method="post" target="_blank" autocomplete="on">
+        Usuario: <input type="text" name="user" placeholder="Ingrese Usuario">
+        Contraseña: <input type="password" nombre="contra" placeholder="Contraseña">
+        <input type="hidden" name="contra" value="12345">
+        <!--input de tipo search se utiliza mas para buscadores-->
+        <input type="search">
+        <select>
+            <!--optgrounp es para tener categorias dentro de mi select, titulo de marcado dentro-->
+            <option disabled selected>--Elige una opción--</option>
+            <optgroup label="Categoria">
+                <option value="1">Opcion1</option>
+                <option value="2">Opcion2</option>
+            </optgroup>
+            
+        </select>
+        <button type="submit">Enviar</button>
+    </from>
+
+    <!--Realizar tablas-->
+    <table>
+        <tr>
+            <th>Titulo 1</th>
+            <th>Titulo 2</th>
+            <th>Titulo 3</th>
+        </tr>
+        <tr>
+            <td>Contenido 1</td>
+            <td>Contenido 2</td>
+            <td>Contenido 3</td>
+        </tr>
+        <tr>
+            <td>Contenido 1</td>
+            <td>Contenido 2</td>
+            <td>Contenido 3</td>
+        </tr>
+        <tr>
+            <td>Contenido 1</td>
+            <td>Contenido 2</td>
+            <td>Contenido 3</td>
+        </tr>
+    </table>
+</body>
+</html>
