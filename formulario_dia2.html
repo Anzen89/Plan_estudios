@@ -6,32 +6,79 @@
     <title>Formulario Contacto</title>
 </head>
 <body>
-    <form>
+    <form method="post" name="formulario" target="_blank">
         <div>
             <label for="nombre">Nombre:</label>
-            <input id="nombre" name="nombre" type="text" placeholder="Escribe tu nombre">
+            <input id="nombre" name="nombre" type="text" placeholder="Escribe tu nombre" required>
         </div>
         
         <div>
             <label for="apellido">Apellido:</label>
-            <input id="apellido" name="apellido" type="text" placeholder="Escribe tu apellido">
+            <input id="apellido" name="apellido" type="text" placeholder="Escribe tu apellido" required>
         </div>
-        
         
         <div>
             <label for="edad">Edad:</label>
-            <input id="edad" name="edad" type="number" placeholder="Ingresa tu edad">
+            <input id="edad" name="edad" type="number" placeholder="Ingresa tu edad" required>
         </div>
         
         <div>
-            <label for="correo">Correo Electronico</label>
-            <input id="correo" type="email" placeholder="ejemplo12@gmail.com">
+            <label for="correo">Correo Electronico:</label>
+            <input id="correo" name="correo" type="email" placeholder="ejemplo12@gmail.com" required>
         </div>
 
         <div>
+            <label for="telefono">Telefono:</label>
+            <input id="telefono" name="telefono" type="tel" placeholder="XXX XXX XXX" required>
+
+        </div>
+
+        <div>
+            <label for="pais">Pais:</label>
+            <select id="pais" name="pais" required>
+                <option selected disabled>Seleccione su pais:</option>
+                <option value="peru">Peru</option>
+                <option value="chile">Chile</option>
+                <option value="mexico">Mexico</option>
+                <option value="argentina">Argentina</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="descripcion">Descripción:</label>
+            <textarea id="descripcion" name="comentario" placeholder="Escriba su comentario.."></textarea>
+        </div>
+
+        <div>
+            <div>
+                <label>Seleccione su genero: </label>
+            </div>
+            <div >
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="femenino" name="genero" value="femenino">
+                <label for="femenino">Femenino</label>
+                <input type="radio" id="sinespecificar" name="genero" value="sinespecificar">
+                <label for="sinespecificar">Prefiero no decirlo</label>
+            </div>
             
         </div>
         
+        <div>
+            <div>
+                <label>Seleccione sus intereses:</label>
+            </div>
+            <div>
+                <input type="checkbox" id="musica" name="intereses[]" value="musica">
+                <label for="musica">Musica</label>
+                <input type="checkbox" id="deportes" name="intereses[]" value="deportes">
+                <label for="deportes">Deportes</label>
+                <input type="checkbox" id="lectura" name="intereses[]" value="lectura">
+                <label for="lectura">Lectura</label>
+                <input type="checkbox" id="cocina" name="intereses[]" value="cocina">
+                <label for="cocina">Cocina</label>
+            </div>
+        </div>
         <button>Enviar</button>
     </form>
 </body>
