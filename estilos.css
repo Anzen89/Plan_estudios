@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(216, 67, 50);
+    font-family: Arial, sans-serif;
+    
+}
+
+.formulario{
+    width: 400px;
+
+    
+
+}
+
+.fnombre {
+    background-color: antiquewhite;
+    width: 400px;
+    height: 30px;
+    border-style: inset;
+    border-color: black;
+    border-radius: 7px;
+}
+
+.fapellido {
+    background-color: aquamarine;
+    width: 400px;
+    height: 30px;
+    border-style: inset;
+    border-color: black;
+    border-radius: 7px;
+}
+
+.fedad {
+    background-color: cadetblue;
+    width: 400px;
+    height: 30px;
+    border-style: inset;
+    border-color: black;
+    border-radius: 7px;
+}
+
+.fcorreo {
+    background-color: coral;
+    width: 400px;
+    height: 30px;
+    border-style: inset;
+    border-color: black;
+    border-radius: 7px;
+}
+
+.ftelefono {
+    background-color: cornflowerblue;
+    width: 400px;
+    height: 30px;
+    border-style: inset;
+    border-color: black;
+    border-radius: 7px;
+}
+
+.fpais {
+    background-color: darkgreen;
+    width: 400px;
+    height: 30px;
+    border-style: inset;
+    border-color: black;
+    border-radius: 7px;
+}
+
+.fdescripcion {
+    background-color: rgb(43, 226, 223);
+    width: 400px;
+    border-style: inset;
+    border-color: black;
+    border-radius: 7px;
+}
+
+
+.fgenero {
+    background-color: beige;
+    width: 400px;
+    height: 50px;
+    border-style: inset;
+    border-color: black;
+    border-radius: 7px;
+}
+
+
+.fintereses {
+    background-color: rgb(167, 103, 25);
+    width: 400px;
+    height: 50px;
+    border-style: inset;
+    border-color: black;
+    border-radius: 7px;
+}
+
+div button {
+    background-color: deeppink;
+    width: 20%;
+    height: 30px;
+    border-style: inset;
+    border-color: black;
+    border-radius: 7px;
+}
+
+/* Este es un comentario con el que podemos dejarnos mensajes*/
