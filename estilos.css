@@ -1,32 +1,38 @@
-body {
-    background-color: rgb(216, 67, 50);
+#fondo {
+    /*Colocar fondo de imagen*/
+    background-image: url("img/abstract-red-fluid-wave-background-free-vector.jpg");
+    /*Colocar el tipo de letra*/
     font-family: Arial, sans-serif;
+    /*Colocar el tamaño del fondo pero que se desplace cuando agrando o recorto la pantalla*/
+    background-size: cover;
     
 }
 
 .formulario{
     width: 400px;
-
-    
-
+ 
 }
 
 .fnombre {
     background-color: antiquewhite;
     width: 400px;
     height: 30px;
+    /*Borde con estilo, color y modelo de radio */
     border-style: inset;
     border-color: black;
     border-radius: 7px;
+    /*padding para separar o tener un margen pero dentro*/
+    padding: 1px 4px;
 }
 
 .fapellido {
-    background-color: aquamarine;
+    background-color: aquamarine; 
     width: 400px;
     height: 30px;
     border-style: inset;
     border-color: black;
     border-radius: 7px;
+    padding: 1px 4px;
 }
 
 .fedad {
@@ -36,6 +42,7 @@ body {
     border-style: inset;
     border-color: black;
     border-radius: 7px;
+    padding: 1px 4px;
 }
 
 .fcorreo {
@@ -45,6 +52,7 @@ body {
     border-style: inset;
     border-color: black;
     border-radius: 7px;
+    padding: 1px 4px;
 }
 
 .ftelefono {
@@ -54,6 +62,7 @@ body {
     border-style: inset;
     border-color: black;
     border-radius: 7px;
+    padding: 1px 4px;
 }
 
 .fpais {
@@ -63,6 +72,15 @@ body {
     border-style: inset;
     border-color: black;
     border-radius: 7px;
+    padding: 1px 4px;
+}
+
+#pais {
+    background-color: rgb(149, 218, 149);
+    margin: 5px;
+    border-color: black;
+    border-style: inset;
+    border-radius: 5px;
 }
 
 .fdescripcion {
@@ -71,8 +89,17 @@ body {
     border-style: inset;
     border-color: black;
     border-radius: 7px;
+    padding: 1px 4px;
+
 }
 
+.fdescripcion textarea {
+    background-color: rgb(171, 234, 236);
+    width: 370px;
+    height: 100px;
+    /*Margen para separar el apartado de pantalla*/
+    margin: 4px;
+}
 
 .fgenero {
     background-color: beige;
@@ -81,6 +108,7 @@ body {
     border-style: inset;
     border-color: black;
     border-radius: 7px;
+    padding: 1px 4px;
 }
 
 
@@ -91,6 +119,7 @@ body {
     border-style: inset;
     border-color: black;
     border-radius: 7px;
+    padding: 1px 4px;
 }
 
 div button {
