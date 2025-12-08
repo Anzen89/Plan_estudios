@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Formulario Contacto</title>
+</head>
+<body>
+    <form class="formulario" method="post" name="formulario" target="_blank">
+        <div class="fnombre">
+            <label for="nombre">Nombre:</label>
+            <input id="nombre" name="nombre" type="text" placeholder="Escribe tu nombre" required>
+        </div>
+
+        <div class="fapellido">
+            <label for="apellido">Apellido:</label>
+            <input id="apellido" name="apellido" type="text" placeholder="Escribe tu apellido" required>
+        </div>
+        
+        <div class="fedad">
+            <label for="edad">Edad:</label>
+            <input id="edad" name="edad" type="number" placeholder="Ingresa tu edad" required>
+        </div>
+        
+        <div class="fcorreo">
+            <label for="correo">Correo Electronico:</label>
+            <input id="correo" name="correo" type="email" placeholder="ejemplo12@gmail.com" required>
+        </div>
+
+        <div class="ftelefono">
+            <label for="telefono">Telefono:</label>
+            <input id="telefono" name="telefono" type="tel" placeholder="XXX XXX XXX" required>
+
+        </div>
+
+        <div class="fpais">
+            <label for="pais">Pais:</label>
+            <select id="pais" name="pais" required>
+                <option selected disabled>Seleccione su pais:</option>
+                <option value="peru">Peru</option>
+                <option value="chile">Chile</option>
+                <option value="mexico">Mexico</option>
+                <option value="argentina">Argentina</option>
+            </select>
+        </div>
+
+        <div class="fdescripcion">
+            <label for="descripcion">Descripción:</label> <br>
+            <textarea id="descripcion" name="comentario" placeholder="Escriba su comentario.."></textarea>
+        </div>
+
+        <div>
+            <div class="fgenero">
+                <label>Seleccione su genero: </label><br>
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="femenino" name="genero" value="femenino">
+                <label for="femenino">Femenino</label>
+                <input type="radio" id="sinespecificar" name="genero" value="sinespecificar">
+                <label for="sinespecificar">Prefiero no decirlo</label>
+            </div>
+            
+        </div>
+        
+        <div>
+            <div class="fintereses">
+                <label>Seleccione sus intereses:</label><br>
+                <input type="checkbox" id="musica" name="intereses[]" value="musica">
+                <label for="musica">Musica</label>
+                <input type="checkbox" id="deportes" name="intereses[]" value="deportes">
+                <label for="deportes">Deportes</label>
+                <input type="checkbox" id="lectura" name="intereses[]" value="lectura">
+                <label for="lectura">Lectura</label>
+                <input type="checkbox" id="cocina" name="intereses[]" value="cocina">
+                <label for="cocina">Cocina</label>
+                <input type="checkbox" id="otros" name="intereses[]" value="otros">
+                <label for="otros">Otros</label>
+            </div>
+        </div>
+        <div>
+            <button class="fboton">Enviar</button>
+        </div>
+        
+    </form>
+</body>
+</html>
