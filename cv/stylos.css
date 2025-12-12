@@ -1,6 +1,33 @@
+body {
+    background-color: rgb(255, 255, 255);
+
+}
+
+.infoborder {
+    background-color: rgb(139, 212, 227);
+    padding: 2px 4px;
+}
+
+.fotoinfo {
+    background-color: rgb(124, 178, 175);
+}
+
+.fotoinfo p {
+    text-decoration: dashed;
+    
+}
+
+img {
+    width: 400px;
+    border-color: black;
+    border-radius: 7px;
+    background-size: cover;
+    margin: 6px;
+}
+
 a:link {
     color:blue;
 }
 a:visited {
-    color: aquamarine;
+    color: rgb(240, 141, 176);
 }
