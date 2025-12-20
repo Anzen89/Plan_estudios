@@ -8,22 +8,43 @@ body {
     padding: 2px 4px;
 }
 
-.fotoinfo {
-    background-color: rgb(124, 178, 175);
+.infoborder h1 {
+    text-align: right;
+    padding: 1px 100px 1px;
 }
 
-.fotoinfo p {
-    text-decoration: dashed;
-    
+.infoborder h3 {
+    text-align: right;
+    padding: 1px 100px 1px;
 }
 
-img {
-    width: 400px;
-    border-color: black;
-    border-radius: 7px;
-    background-size: cover;
-    margin: 6px;
+.contenido {
+    /*display es para poder darle maquetacion*/
+    display: flex;
+    background-color: rgb(217, 228, 237);
+    justify-content: center;
+    padding: 10px;
+
 }
+
+.info {
+    width: 60%;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+
+.barral {
+    width: 300px;
+    background-color: rgb(188, 195, 195);
+    padding: 50px;
+    margin-right: 100px;
+}
+.barral img {
+    width: 100%;
+    border-radius: 5px;
+}
+
 
 a:link {
     color:blue;
