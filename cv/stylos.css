@@ -4,7 +4,7 @@ body {
 }
 
 .infoborder {
-    background-color: rgb(139, 212, 227);
+    background-color: rgb(92, 111, 136);
     padding: 2px 4px;
 }
 
@@ -45,6 +45,10 @@ body {
     border-radius: 5px;
 }
 
+.a {
+    width: 7%;
+    background-color: rgb(92, 111, 136);
+}
 
 a:link {
     color:blue;
