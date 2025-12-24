@@ -50,9 +50,25 @@ body {
     background-color: rgb(92, 111, 136);
 }
 
+/*Este selector es para cuando el link aun no esta visitado*/
 a:link {
     color:blue;
 }
+/*Este selector es para cuando el link ya fue visitado*/
 a:visited {
     color: rgb(240, 141, 176);
+}
+/*Este selector es para cuando estas pasando por encima del link*/
+a:hover {
+    color: blueviolet;
+}
+/*Este selector es para cuando tienes presionado el link*/
+a:visited {
+    color: brown;
+}
+
+.footer {
+    background-color: rgb(92, 111, 136);
+    text-align: center;
+    padding: 20px;
 }
