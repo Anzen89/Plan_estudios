@@ -6,6 +6,7 @@ body {
 .infoborder {
     background-color: rgb(92, 111, 136);
     padding: 2px 4px;
+    /* position: fixed; */
 }
 
 .infoborder h1 {
@@ -82,8 +83,27 @@ a:visited {
     color: rgb(215, 40, 40);
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: solid 2px rgb(184, 176, 176);
+    padding: 8px;
+}
+
+th {
+    background-color: rgb(116, 130, 148);
+}
+
+tr:hover {
+    background-color: rgb(116, 130, 148);
+    cursor: pointer;
+}
+
 .footer {
-    background-color: rgb(92, 111, 136);
+    background-color: rgb(105, 121, 143);
     text-align: center;
     padding: 20px;
 }
